@@ -9,7 +9,7 @@
 //  A port of MPAndroidChart for iOS
 //  Licensed under Apache License 2.0
 //
-//  https://github.com/danielgindi/ios-charts
+//  https://github.com/danielgindi/Charts
 //
 
 import Foundation
@@ -28,7 +28,7 @@ public class ChartRange: NSObject
     }
 
     /// Returns true if this range contains (if the value is in between) the given value, false if not.
-    /// :param: value
+    /// - parameter value:
     public func contains(value: Double) -> Bool
     {
         if value > from && value <= to

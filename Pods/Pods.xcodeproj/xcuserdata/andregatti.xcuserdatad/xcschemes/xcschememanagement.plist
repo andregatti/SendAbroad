@@ -9,7 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods.xcscheme</key>
+		<key>Pods-SendAbroad.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>88D1F84DE2000480823CAC9DC253478A</key>
+		<key>8516CDD70B8F52D80A2CA44B25FEE47B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A5E53A5AEF1554B81F3B3CE9223DF8F6</key>
+		<key>C6828C2508515BC0428D6BDAA1292DC9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

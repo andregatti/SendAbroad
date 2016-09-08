@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E0B498840E3AFB90C3E0B8F0 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DA06327975E0439BC57D8C /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C75DDECFEB8E9A2614041594 /* Pods_SendAbroad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C052E22809316BC42BFD28AB /* Pods_SendAbroad.framework */; };
 		E32AA6AA1B84F763006FD64C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32AA6A91B84F763006FD64C /* AppDelegate.swift */; };
 		E32AA6AF1B84F763006FD64C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E32AA6AD1B84F763006FD64C /* Main.storyboard */; };
 		E32AA6B11B84F763006FD64C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E32AA6B01B84F763006FD64C /* Images.xcassets */; };
@@ -17,14 +17,16 @@
 		E32AA6D41B851991006FD64C /* ExchangeRateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32AA6D31B851991006FD64C /* ExchangeRateStore.swift */; };
 		E32AA6D61B8519E0006FD64C /* ExchangeRateParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32AA6D51B8519E0006FD64C /* ExchangeRateParam.swift */; };
 		E32AA6D81B851A86006FD64C /* RateParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32AA6D71B851A86006FD64C /* RateParam.swift */; };
+		E35CC93B1B87AB8C00440018 /* Currencies.plist in Resources */ = {isa = PBXBuildFile; fileRef = E35CC93A1B87AB8C00440018 /* Currencies.plist */; };
 		E39A828A1B86A16400EDE0BB /* VariationInTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39A82891B86A16400EDE0BB /* VariationInTimeViewController.swift */; };
 		E39A834E1B87843B00EDE0BB /* Currencies.csv in Resources */ = {isa = PBXBuildFile; fileRef = E39A834D1B87843B00EDE0BB /* Currencies.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E06B11BBBEB31777DDC1153 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		928282F8E1213FE6E9CBB04F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		505D59062071E506000C8507 /* Pods-SendAbroad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendAbroad.release.xcconfig"; path = "Pods/Target Support Files/Pods-SendAbroad/Pods-SendAbroad.release.xcconfig"; sourceTree = "<group>"; };
 		A2DA06327975E0439BC57D8C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF61047176FFFEC2225AB190 /* Pods-SendAbroad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendAbroad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SendAbroad/Pods-SendAbroad.debug.xcconfig"; sourceTree = "<group>"; };
+		C052E22809316BC42BFD28AB /* Pods_SendAbroad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SendAbroad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32AA6A41B84F763006FD64C /* SendAbroad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendAbroad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32AA6A81B84F763006FD64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E32AA6A91B84F763006FD64C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +38,7 @@
 		E32AA6D31B851991006FD64C /* ExchangeRateStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeRateStore.swift; sourceTree = "<group>"; };
 		E32AA6D51B8519E0006FD64C /* ExchangeRateParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeRateParam.swift; sourceTree = "<group>"; };
 		E32AA6D71B851A86006FD64C /* RateParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateParam.swift; sourceTree = "<group>"; };
+		E35CC93A1B87AB8C00440018 /* Currencies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Currencies.plist; sourceTree = "<group>"; };
 		E39A82891B86A16400EDE0BB /* VariationInTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariationInTimeViewController.swift; sourceTree = "<group>"; };
 		E39A834D1B87843B00EDE0BB /* Currencies.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Currencies.csv; sourceTree = "<group>"; };
 		E3A704231B869CED00D5BE0F /* SendAbroad-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SendAbroad-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -46,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0B498840E3AFB90C3E0B8F0 /* Pods.framework in Frameworks */,
+				C75DDECFEB8E9A2614041594 /* Pods_SendAbroad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,15 +60,16 @@
 			isa = PBXGroup;
 			children = (
 				A2DA06327975E0439BC57D8C /* Pods.framework */,
+				C052E22809316BC42BFD28AB /* Pods_SendAbroad.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5865E97D28211A7C203839AC /* Pods */ = {
+		6E7CEA110113FB525D714630 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3E06B11BBBEB31777DDC1153 /* Pods.debug.xcconfig */,
-				928282F8E1213FE6E9CBB04F /* Pods.release.xcconfig */,
+				AF61047176FFFEC2225AB190 /* Pods-SendAbroad.debug.xcconfig */,
+				505D59062071E506000C8507 /* Pods-SendAbroad.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -75,8 +79,8 @@
 			children = (
 				E32AA6A61B84F763006FD64C /* SendAbroad */,
 				E32AA6A51B84F763006FD64C /* Products */,
-				5865E97D28211A7C203839AC /* Pods */,
 				0F4BEB3BA41CCD8E6FB637A6 /* Frameworks */,
+				6E7CEA110113FB525D714630 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +110,7 @@
 				E39A834D1B87843B00EDE0BB /* Currencies.csv */,
 				E32AA6A81B84F763006FD64C /* Info.plist */,
 				E3A704231B869CED00D5BE0F /* SendAbroad-Bridging-Header.h */,
+				E35CC93A1B87AB8C00440018 /* Currencies.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -171,12 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E32AA6C31B84F763006FD64C /* Build configuration list for PBXNativeTarget "SendAbroad" */;
 			buildPhases = (
-				E30D61B9A1AE4F966ADE4A0C /* Check Pods Manifest.lock */,
+				23EDB60F12B6B0DC31371098 /* 📦 Check Pods Manifest.lock */,
 				E32AA6A01B84F763006FD64C /* Sources */,
 				E32AA6A11B84F763006FD64C /* Frameworks */,
 				E32AA6A21B84F763006FD64C /* Resources */,
-				06C07F9665886F1D75E78C23 /* Copy Pods Resources */,
-				EAFC20645A094DF16FADE03F /* Embed Pods Frameworks */,
+				2ACC68BBC7C0F3D564C0939F /* 📦 Embed Pods Frameworks */,
+				222EB1E699FA31719CFBB3FD /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E35CC93B1B87AB8C00440018 /* Currencies.plist in Resources */,
 				E32AA6AF1B84F763006FD64C /* Main.storyboard in Resources */,
 				E32AA6B41B84F763006FD64C /* LaunchScreen.xib in Resources */,
 				E32AA6B11B84F763006FD64C /* Images.xcassets in Resources */,
@@ -235,29 +241,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		06C07F9665886F1D75E78C23 /* Copy Pods Resources */ = {
+		222EB1E699FA31719CFBB3FD /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SendAbroad/Pods-SendAbroad-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E30D61B9A1AE4F966ADE4A0C /* Check Pods Manifest.lock */ = {
+		23EDB60F12B6B0DC31371098 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,19 +271,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		EAFC20645A094DF16FADE03F /* Embed Pods Frameworks */ = {
+		2ACC68BBC7C0F3D564C0939F /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SendAbroad/Pods-SendAbroad-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -405,7 +411,7 @@
 		};
 		E32AA6C41B84F763006FD64C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E06B11BBBEB31777DDC1153 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = AF61047176FFFEC2225AB190 /* Pods-SendAbroad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -420,7 +426,7 @@
 		};
 		E32AA6C51B84F763006FD64C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 928282F8E1213FE6E9CBB04F /* Pods.release.xcconfig */;
+			baseConfigurationReference = 505D59062071E506000C8507 /* Pods-SendAbroad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

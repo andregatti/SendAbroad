@@ -8,6 +8,8 @@
 
 import UIKit
 
+let WRITE_CURRENCIES_PLIST = false
+
 class ExchangeRateViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
@@ -15,7 +17,32 @@ class ExchangeRateViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        if (WRITE_CURRENCIES_PLIST) {
+            let bundle = NSBundle.mainBundle()
+            let pathCSV = bundle.pathForResource("Currencies", ofType: "csv")
+            
+            let content = try? String(contentsOfFile: pathCSV!, encoding: NSUTF8StringEncoding)
+
+            let currencies = content!.componentsSeparatedByString("\r\n")
+            
+            let pathPList = NSBundle.mainBundle().pathForResource("Currencies", ofType: "plist")
+            var dict = NSDictionary(contentsOfFile: pathPList!) as! Dictionary<String, String>
+
+            for index in 0 ... (currencies.count - 1) {
+                let completeCurrencyDescription = currencies[index].componentsSeparatedByString(",")
+                let currencyAbbr: String = completeCurrencyDescription[0]
+                let currencyName: String = completeCurrencyDescription[1]
+
+                dict[currencyAbbr] = currencyName
+            }
+            
+            let dict2 = dict as NSDictionary
+            
+            print(pathPList)
+
+            dict2.writeToFile(pathPList!, atomically: false)
+        }
         
         let ex = ExchangeRateStore()
         
@@ -30,7 +57,6 @@ class ExchangeRateViewController: UIViewController {
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print("COUNT \(exchangeRates.count)")
         return exchangeRates.count
     }
     
@@ -41,7 +67,7 @@ class ExchangeRateViewController: UIViewController {
             
             cell.currencyAbbrLabel.text = rateParam.currencyAbbr
             cell.exchangeRateLabel.text = String(format:"%.4f", rateParam.value!)
-            
+            cell.currencyNameLabel.text = rateParam.currencyName
             
             return cell
         }

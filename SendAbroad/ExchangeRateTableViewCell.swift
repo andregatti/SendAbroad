@@ -10,6 +10,7 @@ import UIKit
 
 class ExchangeRateTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var currencyNameLabel: UILabel!
     @IBOutlet weak var currencyAbbrLabel: UILabel!
     @IBOutlet weak var exchangeRateLabel: UILabel!
     

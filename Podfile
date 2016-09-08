@@ -2,5 +2,8 @@
 # platform :ios, '8.0'
 use_frameworks!
 
-pod 'Charts'
+target 'SendAbroad' do
 
+    pod 'Charts'
+
+end
